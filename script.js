@@ -20,7 +20,7 @@ class Employee extends Person{
 		this.jobTitle=jobTitle;
 	}
 	jobGreet(){
-		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`);
 	}
 }
 const person=new Person("Alice",25);
